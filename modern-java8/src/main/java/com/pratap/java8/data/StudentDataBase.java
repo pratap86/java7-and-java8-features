@@ -2,11 +2,14 @@ package com.pratap.java8.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 import com.pratap.java8.beans.Student;
 
 public class StudentDataBase {
 
+	public static Supplier<Student> studentSupplier = () -> getAllStudents().get(0);
+	
 	/**
      * Total of 6 students in the database.
      * @return
