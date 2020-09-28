@@ -105,6 +105,6 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student{" + "name='" + name + '\'' + ", gradeLevel=" + gradeLevel + ", gpa=" + gpa + ", gender='"
-				+ gender + '\'' + ", activities=" + activities + '}';
+				+ gender + '\'' + " , noteBooks =" + noteBooks + ", activities=" + activities + '}';
 	}
 }

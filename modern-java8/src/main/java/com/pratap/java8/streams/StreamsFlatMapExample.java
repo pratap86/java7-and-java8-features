@@ -14,11 +14,26 @@ public class StreamsFlatMapExample {
 				StudentDataBase.getAllStudents().stream()
 												.map(Student::getActivities)
 												.flatMap(List::stream)
+												.distinct()
+												.sorted() // sorted in alphabatical order
 												.collect(toList());
 	}
+	
+	public static long getStudentActivitiesCount(){
+		return
+				StudentDataBase.getAllStudents().stream()
+												.map(Student::getActivities)
+												.flatMap(List::stream)
+												.distinct()
+												.count();
+	}
+	
+	
 	public static void main(String[] args) {
 
-		System.out.println(printStudentActivities());
+		System.out.println("printStudentActivities : "+printStudentActivities());
+		
+		System.out.println("getStudentActivitiesCount: "+getStudentActivitiesCount());
 	}
 
 }
