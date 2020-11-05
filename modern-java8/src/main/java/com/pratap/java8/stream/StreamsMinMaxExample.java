@@ -1,4 +1,4 @@
-package com.pratap.java8.streams;
+package com.pratap.java8.stream;
 
 import java.util.ArrayList;
 import java.util.Arrays;

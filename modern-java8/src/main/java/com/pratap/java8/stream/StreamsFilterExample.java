@@ -1,4 +1,4 @@
-package com.pratap.java8.streams;
+package com.pratap.java8.stream;
 
 import java.util.List;
 import static java.util.stream.Collectors.toList;

@@ -1,4 +1,4 @@
-package com.pratap.java8.streams;
+package com.pratap.java8.stream;
 
 import com.pratap.java8.beans.Student;
 import com.pratap.java8.data.StudentDataBase;
