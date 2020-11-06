@@ -24,6 +24,8 @@ public class StreamMappingExample {
 				.stream()
 				.collect(mapping(Student::getName, toSet()));
 		System.out.println(nameSet);
+		// by doing this, avoid one internal call of mapping
+		StudentDataBase.getAllStudents().stream().map(Student::getName);
 	}
 
 }
