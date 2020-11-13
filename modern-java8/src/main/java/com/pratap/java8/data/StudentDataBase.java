@@ -8,7 +8,9 @@ import com.pratap.java8.beans.Student;
 
 public class StudentDataBase {
 
-	public static Supplier<Student> studentSupplier = () -> getAllStudents().get(0);
+	public static Supplier<Student> studentSupplier = () -> {
+		return new Student("Adam",2,3.6, "male",10,Arrays.asList("swimming", "basketball","volleyball"));
+	};
 	
 	/**
      * Total of 6 students in the database.
