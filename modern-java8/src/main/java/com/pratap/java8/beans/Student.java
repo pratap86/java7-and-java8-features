@@ -104,7 +104,9 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student{" + "name='" + name + '\'' + ", gradeLevel=" + gradeLevel + ", gpa=" + gpa + ", gender='"
-				+ gender + '\'' + " , noteBooks =" + noteBooks + ", activities=" + activities + '}';
+		return String.format(
+				"Student [name=%s, gradeLevel=%s, gpa=%s, gender=%s, noteBooks=%s, bike=%s, activities=%s]", name,
+				gradeLevel, gpa, gender, noteBooks, bike, activities);
 	}
+
 }
