@@ -27,6 +27,8 @@ public class StudentDataBase {
          * 2nd grade students
          */
         Student student1 = new Student("Adam",2,3.6, "male",10,Arrays.asList("swimming", "basketball","volleyball"));
+        Bike bike = new Bike("Jawa", "350");
+        student1.setBike(Optional.ofNullable(bike));
         Student student2 = new Student("Jenny",2,3.8,"female", 11,Arrays.asList("swimming", "gymnastics","soccer"));
         /**
          * 3rd grade students
@@ -39,7 +41,7 @@ public class StudentDataBase {
         Student student5 = new Student("Sophia",4,3.5,"female",10, Arrays.asList("swimming", "dancing","football"));
         Student student6 = new Student("James",4,3.9,"male", 22,Arrays.asList("swimming", "basketball","baseball","football"));
 
-        List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6);
+        List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6, null);
         return students;
     }
 }
