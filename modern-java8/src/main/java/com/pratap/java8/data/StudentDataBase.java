@@ -2,13 +2,20 @@ package com.pratap.java8.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
+import com.pratap.java8.beans.Bike;
 import com.pratap.java8.beans.Student;
 
 public class StudentDataBase {
 
-	public static Supplier<Student> studentSupplier = () -> getAllStudents().get(0);
+	public static Supplier<Student> studentSupplier = () -> {
+		Bike bike = new Bike("Jawa", "350");
+		Student student = new Student("Adam",2,3.6, "male",10,Arrays.asList("swimming", "basketball","volleyball"));
+		student.setBike(Optional.ofNullable(bike));
+		return student;
+	};
 	
 	/**
      * Total of 6 students in the database.
