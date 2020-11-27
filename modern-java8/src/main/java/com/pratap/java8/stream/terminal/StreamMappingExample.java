@@ -2,6 +2,7 @@ package com.pratap.java8.stream.terminal;
 
 import com.pratap.java8.beans.Student;
 import com.pratap.java8.data.StudentDataBase;
+
 import static java.util.stream.Collectors.mapping;
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
