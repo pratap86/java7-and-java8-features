@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.pratap.java8.beans.Student;
 import com.pratap.java8.data.StudentDataBase;
+
 import static java.util.stream.Collectors.toList;
 
 public class StreamsFlatMapExample {

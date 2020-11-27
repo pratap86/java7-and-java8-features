@@ -3,6 +3,7 @@ package com.pratap.java8.datetime;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.temporal.ChronoField;
+import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
 
 public class LocalDateExample {
@@ -38,6 +39,18 @@ public class LocalDateExample {
 		System.out.println("withYear : "+localDate.withYear(2019));
 		System.out.println("withChronoField : "+localDate.with(ChronoField.YEAR, 2020));
 		System.out.println("TemporalAdjusters : "+localDate.with(TemporalAdjusters.firstDayOfNextMonth()));
+		System.out.println("ChronoUnit minus : "+localDate.minus(1, ChronoUnit.YEARS));
+		
+		/**
+		 * Additional support methods
+		 */
+		System.out.println("leapYear : "+localDate.isLeapYear());
+		// localDate = 2020-11-15
+		// localDate1 = 2020-11-16
+		System.out.println("isEqual : "+localDate.isEqual(localDate2));
+		System.out.println("isBefore : "+localDate.isBefore(localDate2));
+		System.out.println("isAfter : "+localDate2.isAfter(localDate));
+		System.out.println("isSupported : "+localDate.isSupported(ChronoUnit.YEARS));
 	}
 
 }
