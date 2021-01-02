@@ -6,14 +6,6 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-<<<<<<< HEAD
-# Ignore Gradle build output directory
-build
-.settings
-bin/*
-.classpath
-.project
-=======
 ### STS ###
 .apt_generated
 .classpath
@@ -41,4 +33,3 @@ build/
 
 ### VS Code ###
 .vscode/
->>>>>>> 41a302c81eedb86cd8af43fef06b40c574360c66
