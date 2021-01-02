@@ -1,7 +1,8 @@
 package com.pratap.java8.stream.terminal;
 
-import com.pratap.java8.data.StudentDataBase;
 import static java.util.stream.Collectors.counting;
+
+import com.pratap.java8.data.StudentDataBase;
 
 public class StreamCountingExample {
 
