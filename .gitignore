@@ -1,2 +1,5 @@
 ws/
 .DS_Store
+.project
+.settings/
+.gradle/
