@@ -1,2 +1,2 @@
-# Java8 and Reactive API
+# Modern Java8
 
