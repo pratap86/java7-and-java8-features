@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 public class DefaultMethodExample2 {
 
