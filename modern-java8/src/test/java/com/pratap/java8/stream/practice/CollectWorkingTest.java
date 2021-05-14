@@ -3,9 +3,9 @@ package com.pratap.java8.stream.practice;
 
 import java.util.List;
 
-import org.junit.Test;
-
 import com.pratap.java8.mockdata.StudentDataBase;
+import org.junit.jupiter.api.Test;
+
 import static java.util.stream.Collectors.toList;
 
 import java.util.ArrayList;
