@@ -25,6 +25,8 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:'+"${lombookVersion}"
     testCompile 'org.junit.jupiter:junit-jupiter-api:'+"${junitJupiterVersion}"
     testCompile 'org.junit.jupiter:junit-jupiter-engine:'+"${junitJupiterVersion}"
+    testImplementation  'org.assertj:assertj-core:'+"${assertJVersion}"
+
 }
 
 test {
