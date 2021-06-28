@@ -1,4 +1,4 @@
-package com.pratap.java8.functionalinterfaces.supplier;
+package com.pratap.java8.functional.interfaces.supplier;
 
 import java.util.List;
 import java.util.function.Supplier;

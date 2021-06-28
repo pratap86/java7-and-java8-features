@@ -1,4 +1,4 @@
-package com.pratap.java8.functionalinterfaces.consumer;
+package com.pratap.java8.functional.interfaces.consumer;
 
 import java.util.List;
 import java.util.function.BiConsumer;
