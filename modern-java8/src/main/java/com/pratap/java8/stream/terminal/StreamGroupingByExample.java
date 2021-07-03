@@ -33,7 +33,7 @@ public class StreamGroupingByExample {
 	// student otherwise average student.
 
 	public static Map<String, List<Student>> customizedGroupingBy() {
-		return students.stream().collect(groupingBy(student -> student.getGpa() >= 3.8 ? "OUSTANDING" : "AVERAGE"));
+		return students.stream().collect(groupingBy(student -> student.getGpa() >= 3.8 ? "OUTSTANDING" : "AVERAGE"));
 	}
 
 	// use case -3 Two level grouping.
