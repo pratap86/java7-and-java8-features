@@ -1,4 +1,4 @@
-package com.pratap.java8.functionalinterfaces.function;
+package com.pratap.java8.functional.interfaces.function;
 
 import java.util.function.UnaryOperator;
 

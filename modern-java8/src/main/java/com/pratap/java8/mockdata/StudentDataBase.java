@@ -1,4 +1,4 @@
-package com.pratap.java8.data;
+package com.pratap.java8.mockdata;
 
 import java.util.Arrays;
 import java.util.List;
@@ -41,7 +41,7 @@ public class StudentDataBase {
         Student student5 = new Student("Sophia",4,3.5,"female",10, Arrays.asList("swimming", "dancing","football"));
         Student student6 = new Student("James",4,3.9,"male", 22,Arrays.asList("swimming", "basketball","baseball","football"));
 
-        List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6, null);
+        List<Student> students = Arrays.asList(student1,student2,student3,student4,student5,student6);
         return students;
     }
 }

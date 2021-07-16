@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.function.Predicate;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 /**
  * Terminal OPeration - partitioningBy()
  * is also kind of groupingBy, accept a predicate as input, return type of collector is going to be Map<K, V>

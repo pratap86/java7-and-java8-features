@@ -1,4 +1,4 @@
-package com.pratap.java8.functionalinterfaces.function;
+package com.pratap.java8.functional.interfaces.function;
 
 import java.util.HashMap;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.function.BiFunction;
 import java.util.function.Predicate;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 public class BiFunctionExcample {
 

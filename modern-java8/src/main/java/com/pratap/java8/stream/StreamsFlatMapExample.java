@@ -3,7 +3,7 @@ package com.pratap.java8.stream;
 import java.util.List;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 import static java.util.stream.Collectors.toList;
 
