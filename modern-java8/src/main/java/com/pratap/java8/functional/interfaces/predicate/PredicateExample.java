@@ -1,15 +1,16 @@
-package com.pratap.java8.functionalinterfaces.predicate;
+package com.pratap.java8.functional.interfaces.predicate;
 
 import java.util.List;
 import java.util.function.BiConsumer;
-import java.util.function.BiPredicate;
+import java.util.function.Predicate;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
-public class BiPredicateExample {
+public class PredicateExample {
 
-	BiPredicate<Integer, Double> biPredicate = (gradeLevel, gpa) -> gradeLevel >= 3 && gpa >= 3.9;
+	Predicate<Student> gradeLevelPredicate = student -> student.getGradeLevel() >= 3;
+	Predicate<Student> gpaPredicate = student -> student.getGpa() >= 3.9;
 	
 	BiConsumer<String, List<String>> nameAndActivitiesConsumer = 
 			(name, activities) -> System.out.println(name+":"+activities);
@@ -20,14 +21,14 @@ public class BiPredicateExample {
 			
 			public void printNameAndActivitiesUsingCondition() {
 				students.forEach(student -> {
-					if(biPredicate.test(student.getGradeLevel(), student.getGpa())) {
+					if(gradeLevelPredicate.and(gpaPredicate).test(student)) {
 						nameAndActivitiesConsumer.accept(student.getName(), student.getActivities());
 					}
 				});
 			}
 	public static void main(String[] args) {
 
-		new BiPredicateExample().printNameAndActivitiesUsingCondition();
+		new PredicateExample().printNameAndActivitiesUsingCondition();
 	}
 
 }

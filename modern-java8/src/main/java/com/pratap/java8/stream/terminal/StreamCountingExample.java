@@ -2,7 +2,7 @@ package com.pratap.java8.stream.terminal;
 
 import static java.util.stream.Collectors.counting;
 
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 public class StreamCountingExample {
 

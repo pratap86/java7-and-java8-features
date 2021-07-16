@@ -1,10 +1,10 @@
-package com.pratap.java8.functionalinterfaces.supplier;
+package com.pratap.java8.functional.interfaces.supplier;
 
 import java.util.List;
 import java.util.function.Supplier;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 /**
  * 

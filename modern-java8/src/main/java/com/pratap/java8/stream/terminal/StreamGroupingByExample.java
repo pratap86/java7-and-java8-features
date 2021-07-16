@@ -6,7 +6,7 @@ import java.util.Optional;
 import java.util.Set;
 
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.summingInt;
@@ -33,7 +33,7 @@ public class StreamGroupingByExample {
 	// student otherwise average student.
 
 	public static Map<String, List<Student>> customizedGroupingBy() {
-		return students.stream().collect(groupingBy(student -> student.getGpa() >= 3.8 ? "OUSTANDING" : "AVERAGE"));
+		return students.stream().collect(groupingBy(student -> student.getGpa() >= 3.8 ? "OUTSTANDING" : "AVERAGE"));
 	}
 
 	// use case -3 Two level grouping.

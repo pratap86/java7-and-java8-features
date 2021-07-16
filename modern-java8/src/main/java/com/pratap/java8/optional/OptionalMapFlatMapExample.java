@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import com.pratap.java8.beans.Bike;
 import com.pratap.java8.beans.Student;
-import com.pratap.java8.data.StudentDataBase;
+import com.pratap.java8.mockdata.StudentDataBase;
 
 public class OptionalMapFlatMapExample {
 
