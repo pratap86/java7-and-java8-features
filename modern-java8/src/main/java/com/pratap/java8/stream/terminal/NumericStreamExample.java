@@ -1,9 +1,16 @@
-package com.pratap.java8.stream.numeric;
+package com.pratap.java8.stream.terminal;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
+/**
+ * Stream API - reduce()
+ * Terminal operation, used to reduce the contents of stream to a single value
+ * It takes two parameters as input
+ * 1st parameter - default or initial value
+ * 2nd parameter - BinaryOperator<T>
+ */
 public class NumericStreamExample {
 
 	public static int sumOfNNumbers(List<Integer> integerList) {

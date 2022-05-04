@@ -20,7 +20,7 @@ public class Main {
         Comparator<? super Laptop> brandComparator = (l1, l2) -> {
           return l1.getBrand().compareTo(l2.getBrand());
         };
-        Collections.sort(laptops, brandComparator);
-        laptops.stream().forEach(System.out::println);
+        laptops.sort(brandComparator);
+        laptops.forEach(System.out::println);
     }
 }

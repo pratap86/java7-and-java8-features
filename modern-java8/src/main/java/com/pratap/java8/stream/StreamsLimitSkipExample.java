@@ -4,6 +4,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Stream API - limit() & skip()
+ * helps to create a sub stream
+ */
 public class StreamsLimitSkipExample {
 
 	public static Optional<Integer> limit(List<Integer> nums){
