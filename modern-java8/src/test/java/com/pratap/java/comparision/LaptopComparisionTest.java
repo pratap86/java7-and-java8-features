@@ -1,5 +1,6 @@
-package com.pratap.comparision;
+package com.pratap.java.comparision;
 
+import com.pratap.comparision.Laptop;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -9,8 +9,7 @@ public class StreamCountingExample {
 	public static long count() {
 		return StudentDataBase.getAllStudents()
 				.stream()
-				.filter(student -> student.getGpa() >= 3.9)
-				.collect(counting());
+				.filter(student -> student.getGpa() >= 3.9).count();
 	}
 	public static void main(String[] args) {
 
