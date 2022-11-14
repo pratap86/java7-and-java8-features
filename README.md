@@ -1,3 +1,13 @@
+# java7 Features
+- try with resource statement
+- Suppressed Exception
+- Catching multiple Exceptions
+- java.util.Objects class & null check
+- @SafeVarargs indicates will not couse the heap polution
+- The new interfaces & classes from java.nio.file.*
+- String in switch statement
+- Type inference or Diamond operator
+
 # Java8 Features
 
 ### Terminal Operations - groupingBy()
