@@ -9,6 +9,8 @@
 - Type inference or Diamond operator
 
 # Java8 Features
+- Default methods in interfaces aka defender methods or virtual extension methods
+- static methods in interfaces
 
 ### Terminal Operations - groupingBy()
 - groupingBy collector is equivalent to the groupby clause in sql
